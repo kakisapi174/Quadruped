@@ -1,0 +1,15 @@
+Download the file "Remot_Quadruped.apk" on your mobile device (it has to be an android)
+
+Connect the power supply to the robot so that the HC-05 module is blinking, once it's blinking pair the HC-05 module to your device.
+
+*NOTE:
+- Make sure that your device gives access to nearby devices for the Remot_Quadruped app
+
+Open the Remot_Quadruped app, then click the "quadbot" button and select the HC-05 module that you paired.
+
+once connected than the remote is now of use.
+
+*DISCLAIMER:
+- clicking the button is enough, there is no need to hold it down since there is still a considerable amount of delay
+
+Enjoy

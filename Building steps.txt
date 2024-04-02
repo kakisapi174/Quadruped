@@ -1,0 +1,43 @@
+Components Used:
+
+1 piece Arduino nano
+
+1 piece Arduino nano I/O shield
+
+8 pieces of  sg90 or mg90 Servo 
+
+1 set of quadruped shell (https://www.tokopedia.com/office3d/spider-robot-arduino-quadruped-robot-arduino-print-3d-full-rangka?utm_campaign=PDP-20222269-1575831973-0-250324-default&utm_source=salinlink&utm_medium=share)
+
+1 piece 2 cell LiPo Batterey with 3000 mAh
+
+1 piece bluetooth module (HC-05)
+
+For the next steps you can reference the file "Label".
+
+Connect each servo to the I/o Shield accordingly:
+(Make sure that the robot orientation is correct such that there is no error in labeling the servos)
+Servo A = pin2
+Servo B = pin8
+Servo C = pin4
+Servo D = pin6
+Servo 1 = pin3
+Servo 2 = pin9
+Servo 3 = pin5
+Servo 4 = pin7
+
+When building the robot, make sure that the Servos are in the idle position before tightening it with the screws.
+
+to adjust the servos to the idle position, open the source code file and modify the void loop section:
+
+void loop() {
+	Idle();
+}
+
+after the body's assembly is done, connect the HC-05 module accordingly:
+Vcc = 5V
+Gnd = Gnd
+RXD = TX
+TXD = RX
+
+After all's done re type the original source code, than upload it to the robot.
+
